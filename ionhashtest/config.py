@@ -51,7 +51,7 @@ ION_BUILDS = {
     'ion-hash-test': NO_OP_BUILD,
     'ion-hash-java': IonBuild(install_ion_hash_java, os.path.join('tools', 'ion-hash')),
     'ion-hash-js': IonBuild(install_ion_hash_js, os.path.join('tools', 'ion-hash')),
-    'ion-hash-go': IonBuild(install_ion_hash_go, os.path.join('tools', 'ion-hash')),
+    'ion-hash-go': IonBuild(install_ion_hash_go, os.path.join('cmd', 'ion-hash')),
     #'ion-hash-python': IonBuild(install_ion_hash_python, os.path.join('tools', 'ion-hash-wrapper')),   # https://github.com/amzn/ion-hash-test-driver/issues/5
     # TODO add more implementations here
 }
